@@ -1,0 +1,29 @@
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+
+    width: 680px;
+    height: 680px;
+    border-radius: 12%;
+    padding: 15px;
+    background-color: rgb(124, 124, 124);
+}
+
+.hole {
+    cursor: pointer;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 233);
+}
+
+.hole_active {
+    background-image: url(../../img/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

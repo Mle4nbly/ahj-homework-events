@@ -1,0 +1,40 @@
+.headers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.health_bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 5px;
+    border-radius: 35px;
+    width: 300px;
+    height: 60px;
+    background-color: #999;
+}
+
+.point {
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.point_active {
+    background-color: rgb(255, 124, 124);
+}
