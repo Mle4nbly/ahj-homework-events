@@ -1,5 +1,3 @@
-// import "./headers.css"
-
 export default class Headers {
   constructor(element) {
     if (typeof element === "string") {

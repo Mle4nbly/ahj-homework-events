@@ -1,5 +1,3 @@
-// import "./field.css"
-
 export default class Field {
   constructor(element, hitHandler, missHandler, loseHandler) {
     if (typeof element === "string") {
