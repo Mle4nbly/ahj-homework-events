@@ -9,4 +9,3 @@ const field = new Field(
   headers.loseNotification,
 );
 
-console.log(field);
